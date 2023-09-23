@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+html,
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 300;
+  line-height: 1.4;
+   background-image: linear-gradient(to right, #92a2a6, #f6dac4, #dcccc0, #a59e9a);
+}
+body {
+  font-size: 1.5rem;
+}
+ul {
+  list-style: none;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background: #fff;
+}
+nav {
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  gap: 2rem;
+}
+
+nav ul li {
+  font-size: 1.8rem;
+}
+nav ul li:hover {
+  border-bottom: rgb(140, 194, 211) 2px solid;
+}
+nav i {
+  font-size: 2rem;
+}
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+#main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4rem;
+  margin-bottom: 10rem;
+}
+
+.main_content h1 {
+  font-size: 5rem;
+  line-height: 1;
+  
+}
+.main_content h4 {
+  font-size: 2rem;
+  font-weight: lighter;
+  margin-top: 3rem;
+}
+
+.main_image img {
+  border-radius: 2rem;
+}
+
+.status {
+  display: flex;
+  justify-content: space-between;
+}
+.read-btn {
+  all: unset;
+  font-weight: 600;
+  border-bottom: 1px solid transparent;
+}
+.read-btn:hover {
+  border-bottom: 1px solid #ccc;
+}
+
+.h-card {
+  display: flex;
+  margin: 2rem 1rem;
+  box-shadow: 0px 5px 4px rgba(221, 221, 221, 0.25);
+  align-items: center;
+  border: 1px solid #e2e2e2;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.h-card:hover{
+  background: rgba(187, 141, 141, 0.226);
+  transition: width 2s;
+}
+
+.card_content {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 4rem;
+}
+
+
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  align-items: center;
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer ul {
+  display: flex;
+  gap: 2rem;
+}
+footer ul li {
+  font-size: 1.8rem;
+}
+
+.main_img {
+  width: 60%;
+}
+.post h1 {
+  font-size: 3rem;
+}
+.post hr {
+  margin: 3rem 0;
+}
+.about-author {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
